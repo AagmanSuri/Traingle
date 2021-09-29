@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+ul,
+li {
+  display: inline-block;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  display: inline-block;
+}
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+button {
+  margin-top: 2rem;
+  color: black;
+  background-color: white;
+}
+#output,
+.output {
+  margin-top: 2rem;
+}
